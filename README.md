@@ -1,4 +1,4 @@
-[jsafe00][repo]’s dotfiles
+[jsafe00][repo]’s dotfiles - copy from https://github.com/alrra/dotfiles
 ==========================
 
 [![CI status for macOS][ci badge macos]][ci link macos]
@@ -106,7 +106,7 @@ Here is an example:
 
 # Set PATH additions.
 
-PATH="/Users/jsafe00/devspace/dotfiles/src/bin/:$PATH"
+PATH="/Users/josafebalili/devspace/dotfiles/src/bin/:$PATH"
 
 export PATH
 
