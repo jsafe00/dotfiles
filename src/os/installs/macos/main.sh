@@ -24,5 +24,4 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./../vim.sh
 ./vscode.sh
 ./web_font_tools.sh
-./docker.sh
-./php.sh
+
