@@ -61,6 +61,10 @@ install() {
         ask_for_sudo
         printf "\n" | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &> /dev/null
         #  └─ simulate the ENTER keypress
+        # Add Homebrew to .zprofile
+        echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/josafebalili/.zprofile
+        # Activate Homebrew shell environment
+        eval $(/opt/homebrew/bin/brew shellenv)
     fi
 
     print_result $? "Install"
