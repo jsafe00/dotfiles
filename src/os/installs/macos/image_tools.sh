@@ -10,4 +10,3 @@ print_in_purple "\n   Image Tools\n\n"
 
 brew_install "ImageMagick" "imagemagick"
 brew_install "ImageOptim" "imageoptim" "--cask"
-brew_install "pngquant" "pngquant"
