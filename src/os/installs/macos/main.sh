@@ -15,6 +15,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./image_tools.sh
 ./misc.sh
 ./misc_tools.sh
+./rosetta.sh
 ./../npm.sh
 ./tmux.sh
 ./../vim.sh
