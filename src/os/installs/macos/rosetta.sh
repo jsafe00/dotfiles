@@ -12,6 +12,12 @@ install_rosetta() {
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-print_in_purple "\n   Install Rosetta\n\n"
+main() {
 
-install_rosetta
+    print_in_purple "\n   Install Rosetta \n\n"
+
+    install_rosetta "Install rosetta" "rosetta"
+
+}
+
+main
