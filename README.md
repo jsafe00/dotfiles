@@ -35,8 +35,8 @@ To set up the dotfiles run the appropriate snippet in the terminal:
 
 | OS | Snippet |
 |:---|:---|
-| macOS | `bash -c "$(curl -LsS https://raw.github.com/jsafe00/dotfiles/main/src/os/setup.sh)"` |
-| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/jsafe00/dotfiles/main/src/os/setup.sh)"` |
+| macOS | `bash -c "$(curl -LsS https://raw.github.com/jsafe00/dotfiles/main/src-for-dev/os/setup.sh)"` |
+| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/jsafe00/dotfiles/main/src-for-dev/os/setup.sh)"` |
 
 That's it! ✨
 
